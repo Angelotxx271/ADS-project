@@ -21,25 +21,20 @@ To set up and run the program, ensure the following:
 2. **Required Libraries**  
    Install the necessary libraries using:
    ```bash
-   pip install -r requirements.txt
+   pip install streamlit
+   pip install openai
+   pip install pytesseract
+   pip install pdfminer.six
+   pip install pandas
+   pip install numpy
+   pip install scikit-learn
 
 The requirements.txt file includes all required dependencies.
 
 
 ## Usage
 
-Install the required dependencies:
-
-pip install streamlit
-pip install openai
-pip install pytesseract
-pip install pdfminer.six
-pip install pandas
-pip install numpy
-pip install scikit-learn
-
-
-Run the Streamlit app:
+Run the Streamlit app in the terminal:
 
     streamlit run CV_classification.py
 
