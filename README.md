@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 Run the Streamlit app:
 
-    streamlit run app.py
+    streamlit run CV_classification.py
 
     Open the link provided by Streamlit in your browser.
 
