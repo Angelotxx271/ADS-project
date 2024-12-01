@@ -18,7 +18,7 @@ import os
 #a cost per each API call we make this script will try to make as few calls as possible, therefore we kindly ask making a responsible use of the code provided here and ask for
 #it not to be shared and deleted after its use for the grading in the project.
 
-client = OpenAI(api_key='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') 
+client = OpenAI(api_key='') 
 
 #Function to extract the pdf information, trying 2 methods if one fails
 def extract_cv_content(pdf_path):
