@@ -13,15 +13,58 @@ The platform has two main functionalities:
 
 ## Installation
 
-To set up and run the program, make sure you have the following installed:
+To set up and run the program, ensure the following:
 
 1. **Python Programming Language**  
-   - Supported versions: Python 3.7 and above.
+   - Supported versions: Python 3.6–3.8.
 
 2. **Required Libraries**  
-   Install the necessary libraries using the following command:
+   Install the necessary libraries using:
    ```bash
    pip install -r requirements.txt
+
+The requirements.txt file includes all required dependencies.
+
+
+## Usage
+
+Install the required dependencies:
+
+pip install -r requirements.txt
+
+Run the Streamlit app:
+
+    streamlit run app.py
+
+    Open the link provided by Streamlit in your browser.
+
+How It Works
+Workflow
+
+    Upload Your CV
+        Upload a PDF version of your CV.
+        The application extracts and processes the data using either pdfminer or Tesseract OCR.
+
+    View Extracted Data
+        The application parses the CV and categorizes information into sections like education, experience, and skills.
+        This data is displayed for user verification.
+
+    View Program Recommendations
+        The AI ranks the top 3 programs that match the user's profile, with brief explanations for each choice.
+
+
+Powered by:
+
+    OpenAI GPT-4
+    Streamlit Framework
+
+Disclaimer
+
+This program uses an OpenAI API key, which incurs costs per API call. Please use the program responsibly and avoid sharing API keys.
+
+
+---
+
 
 
    
