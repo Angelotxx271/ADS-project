@@ -30,7 +30,14 @@ The requirements.txt file includes all required dependencies.
 
 Install the required dependencies:
 
-pip install -r requirements.txt
+pip install streamlit
+pip install openai
+pip install pytesseract
+pip install pdfminer.six
+pip install pandas
+pip install numpy
+pip install scikit-learn
+
 
 Run the Streamlit app:
 
