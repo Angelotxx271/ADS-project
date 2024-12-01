@@ -70,8 +70,12 @@ This program uses an OpenAI API key, which incurs costs per API call. Please use
 # CREDITS
 The authors for this project are:   
 Angel Acorda
+
 Ilia Artamonov  
+
 Claudia Guerrero  
+
 Carla Gonzalez
+
 Sahitya Anand
   
