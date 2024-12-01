@@ -29,8 +29,6 @@ To set up and run the program, ensure the following:
    pip install numpy
    pip install scikit-learn
 
-The requirements.txt file includes all required dependencies.
-
 
 ## Usage
 
@@ -66,7 +64,6 @@ This program uses an OpenAI API key, which incurs costs per API call. Please use
 
 
 ---
-
 
 
    
