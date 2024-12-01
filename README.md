@@ -16,8 +16,8 @@ The platform has two main functionalities:
 To set up and run the program, ensure the following:
 
 1. **Python Programming Language**  
-   - Supported versions: Python 3.6–3.8.
-
+   - Supported versions: 3.7 and above
+     
 2. **Required Libraries**  
    Install the necessary libraries using:
    ```bash
